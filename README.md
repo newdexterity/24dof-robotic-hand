@@ -40,9 +40,7 @@ The repository is organized as follows:
 ├── src/                    # Source code
 │   ├── firmware/           # Firmware for controlling the hand
 │   │   └── dynamixel/      # Dynamixel motor control code
-│   ├── control/            # High-level control software
-│   │   ├── joint_control/  # Joint-level controllers
-│   │   └── gesture_control/# Pre-defined hand gesture generators
+│   └─── control/            # High-level control software
 │
 ├── docs/                   # Documentation
 │   ├── assembly_instructions/  # Step-by-step assembly guide
@@ -101,8 +99,8 @@ Detailed assembly instructions can be found in the [docs/assembly_instructions](
 - **Actuation**: Tendon-driven using Dynamixel servo motors
 - **Tendon System**: Multi-layer sheath system (tension spring outer layer, PTFE middle layer, high-strength braided fishing line inner layer)
 - **Materials**: 3D printed components and off-the-shelf parts
-- **Workspace**: Comparable to the Shadow Hand (see [experiments/workspace_analysis](./experiments/workspace_analysis))
-- **Repeatability**: High repeatability with average standard deviation <1mm in position and <5.3° in orientation
+<!--- **Workspace**: Comparable to the Shadow Hand (see [experiments/workspace_analysis](./experiments/workspace_analysis))-->
+<!--- **Repeatability**: High repeatability with average standard deviation <1mm in position and <5.3° in orientation-->
 
 ## Getting Started
 
