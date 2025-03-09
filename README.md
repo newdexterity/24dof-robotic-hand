@@ -4,6 +4,8 @@ This repository contains the design files and source code for a 24-degree-of-fre
 
 [![24-DOF Robotic Hand Video](https://img.youtube.com/vi/ohg968oTFxQ/3.jpg)](https://youtu.be/ohg968oTFxQ)
 
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/ohg968oTFxQ" frameborder="0" allowfullscreen></iframe>
+
 ## Overview
 
 The 24 DOF Anthropomorphic Robotic Hand is an open-source project that provides a fully functional dexterous robotic hand design. The hand features a highly biomimetic design with 24 actuated degrees of freedom including the wrist. It is designed to be affordable, lightweight, and anthropomorphic, making it suitable for research in dexterous manipulation, human-robot interaction, and potential prosthetic applications.
