@@ -1,1 +1,3 @@
-﻿# Under Construction\n\nThis directory is currently under development.
+﻿# Under Construction
+
+This directory is currently under construction. Content will be added in future updates.
