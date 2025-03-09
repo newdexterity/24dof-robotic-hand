@@ -2,6 +2,8 @@
 
 This repository contains the design files and source code for a 24-degree-of-freedom tendon-driven anthropomorphic robotic hand developed by the New Dexterity research group at the University of Auckland.
 
+[![24-DOF Robotic Hand Video](https://img.youtube.com/vi/ohg968oTFxQ/3.jpg)](https://youtu.be/ohg968oTFxQ)
+
 ## Overview
 
 The 24 DOF Anthropomorphic Robotic Hand is an open-source project that provides a fully functional dexterous robotic hand design. The hand features a highly biomimetic design with 24 actuated degrees of freedom including the wrist. It is designed to be affordable, lightweight, and anthropomorphic, making it suitable for research in dexterous manipulation, human-robot interaction, and potential prosthetic applications.
@@ -40,7 +42,7 @@ The repository is organized as follows:
 ├── src/                    # Source code
 │   ├── firmware/           # Firmware for controlling the hand
 │   │   └── dynamixel/      # Dynamixel motor control code
-│   └─── control/            # High-level control software
+│   └─── control/            # High-level control code
 │
 ├── docs/                   # Documentation
 │   ├── assembly_instructions/  # Step-by-step assembly guide
@@ -106,7 +108,7 @@ Detailed assembly instructions can be found in the [docs/assembly_instructions](
 
 ### Prerequisites
 
-- 3D printer with minimum build volume of 200x200x200mm
+- 3D printer
 - Dynamixel motors (24x XC-330-T228-T)
 - Dynamixel controllers
 - Basic electronic tools and components
