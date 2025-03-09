@@ -1,0 +1,9 @@
+# To install dependencies: pip install -r requirements.txt
+
+# Required libraries
+pyserial==3.5
+dynamixel-sdk==3.7.31
+numpy==2.0.1
+matplotlib==3.9.2
+matlabengine==24.1.2
+keyboard==0.13.5
