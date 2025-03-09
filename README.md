@@ -115,22 +115,22 @@ Detailed assembly instructions can be found in the [docs/assembly_instructions](
 
 ### Installation and Setup
 
-1. Clone this repository
+<!-- 1. Clone this repository
 2. Follow the [assembly instructions](./docs/assembly_instructions)
 3. Install the required software dependencies
-4. Connect the hand to your computer and run the example code
+4. Connect the hand to your computer and run the example code -->
 
 ## Contributing
 
-Contributions to the project are welcome! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for details.
+<!-- Contributions to the project are welcome! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for details. -->
 
 ## License
 
-This project is licensed under the [MIT License](./LICENSE).
+<!-- This project is licensed under the [MIT License](./LICENSE). -->
 
 ## Citation
 
-If you use this design in your research, please cite:
+<!-- If you use this design in your research, please cite: -->
 
 <!-- ```
 @inproceedings{Kobayashi_Liarokapis_2025,
@@ -142,6 +142,4 @@ If you use this design in your research, please cite:
 ``` -->
 
 ## Acknowledgments
-
-<!-- This work was supported by the University of Auckland Doctoral Scholarship and the New Dexterity (NDX) research group at the University of Auckland. -->
 
