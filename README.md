@@ -35,7 +35,7 @@ The repository is organized as follows:
 │   ├── palm/               # Palm component designs
 │   ├── wrist/              # Wrist component designs
 │   ├── actuation_unit/     # Actuation housing components
-│   └── assembly/           # Full assembly files
+│   └── assembly/           # Full assembly files (STL, STEP)
 │
 ├── src/                    # Source code
 │   ├── firmware/           # Firmware for controlling the hand
