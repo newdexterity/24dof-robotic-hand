@@ -1,3 +1,3 @@
 # 24dof-robotic-hand
 
-Currently under construction. Updates are available on branch 'draft'.
+Currently under construction. Please go to the branch 'draft' to see the latest updates.
