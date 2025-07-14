@@ -139,3 +139,7 @@ Detailed assembly instructions can be found in the [docs/assembly_instructions](
 
 ## Acknowledgments
 
+=======
+# 24dof-robotic-hand
+
+Currently under construction. Please go to the branch 'draft' to see the latest updates.
