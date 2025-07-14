@@ -45,13 +45,6 @@ The repository is organized as follows:
 │   │   └── dynamixel/      # Dynamixel motor control code
 │   └─── control/            # High-level control code
 │
-├── docs/                   # Documentation
-│   ├── assembly_instructions/  # Step-by-step assembly guide
-│   ├── images/             # Images for documentation
-│   ├── BOM.md              # Bill of Materials
-│   ├── technical_specs.md  # Technical specifications
-│   └── tendon_routing.md   # Tendon routing documentation
-│
 └── LICENSE                 # License information
 ```
 
