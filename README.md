@@ -45,13 +45,6 @@ The repository is organized as follows:
 │   │   └── dynamixel/      # Dynamixel motor control code
 │   └─── control/            # High-level control code
 │
-├── docs/                   # Documentation
-│   ├── assembly_instructions/  # Step-by-step assembly guide
-│   ├── images/             # Images for documentation
-│   ├── BOM.md              # Bill of Materials
-│   ├── technical_specs.md  # Technical specifications
-│   └── tendon_routing.md   # Tendon routing documentation
-│
 └── LICENSE                 # License information
 ```
 
@@ -105,7 +98,7 @@ Detailed assembly instructions can be found in the [docs/assembly_instructions](
 <!--- **Workspace**: Comparable to the Shadow Hand (see [experiments/workspace_analysis](./experiments/workspace_analysis))-->
 <!--- **Repeatability**: High repeatability with average standard deviation <1mm in position and <5.3° in orientation-->
 
-## Getting Started
+<!-- ## Getting Started
 
 ### Prerequisites
 
@@ -116,7 +109,7 @@ Detailed assembly instructions can be found in the [docs/assembly_instructions](
 - High-strength fishing line for tendons
 - PTFE tubing and tension springs for tendon sheaths
 
-### Installation and Setup
+### Installation and Setup -->
 
 <!-- 1. Clone this repository
 2. Follow the [assembly instructions](./docs/assembly_instructions)
@@ -146,7 +139,7 @@ Detailed assembly instructions can be found in the [docs/assembly_instructions](
 
 ## Acknowledgments
 
-=======
+<!-- =======
 # 24dof-robotic-hand
 
-Currently under construction. Please go to the branch 'draft' to see the latest updates.
+Currently under construction. Please go to the branch 'draft' to see the latest updates. -->

@@ -51,24 +51,24 @@ The `getting_started.md` guide provides:
 - Initial setup procedures
 - Software installation instructions
 - Basic movement and control examples
-- Troubleshooting common issues
+<!-- - Troubleshooting common issues -->
 
-### Advanced Usage
+<!-- ### Advanced Usage
 
 Advanced usage documentation covers:
 - Calibration procedures
 - Creating custom gestures and motions
 - Integrating with external systems
-- Sensor integration options
+- Sensor integration options -->
 
 ## Resources
 
 Additional resources include:
 - Research papers and publications
-- Video demonstrations (links)
+<!-- - Video demonstrations (links)
 - 3D printing recommendations
-- Maintenance and care instructions
+- Maintenance and care instructions -->
 
-## Contribution Guidelines
+<!-- ## Contribution Guidelines
 
-Guidelines for contributing to the documentation are provided in `CONTRIBUTING.md`.
+Guidelines for contributing to the documentation are provided in `CONTRIBUTING.md`. -->
