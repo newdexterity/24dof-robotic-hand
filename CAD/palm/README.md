@@ -25,23 +25,12 @@ The palm design closely follows human anatomical structure with:
 ### Tendon Routing
 - Integrated channels for proper tendon path management
 - Strategically placed guides to minimize friction
-- Pulley systems for efficient force transmission
 
-### Biomechanical Considerations
-- Structural reinforcement at high-stress areas
-- Optimized weight distribution
-- Balance between strength and weight
-
-### Integration Features
-- Mounting points for wrist attachment
-- Secure connection points for finger metacarpals
-- Provisions for sensor integration
 
 ## Technical Specifications
 
 - **Material Recommendations**: PETG or PLA+ with 40-50% infill
 - **Print Orientation**: Split models should be printed flat side down
-- **Support Requirements**: Minimal supports needed for overhangs
 - **Assembly Hardware**: Uses M2 and M3 screws for component attachment
 
 ## Assembly Notes
@@ -50,4 +39,3 @@ The palm design closely follows human anatomical structure with:
 2. Attach metacarpals in anatomically correct positions
 3. Verify smooth articulation at CMC joints
 4. Install internal tendon routing guides before completing assembly
-5. Refer to the detailed assembly guide in the documentation directory
