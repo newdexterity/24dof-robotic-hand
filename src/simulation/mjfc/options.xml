@@ -1,0 +1,3 @@
+<mujoco>
+    <option timestep="0.01" gravity="0 0 -9.81" />
+</mujoco>

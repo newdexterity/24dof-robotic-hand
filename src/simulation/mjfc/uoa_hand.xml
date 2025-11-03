@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="model">
+  <compiler angle="radian" coordinate="local" />
+  <option />
+  <include file="contacts.xml" />
+  <include file="defaults.xml" />
+  <asset>
+    <mesh name="carpal_bone_1_1+Component58_1" file=".\meshes\carpal_bone_1_1+Component58_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="middle_finger_1+middle_meta_v7_1" file=".\meshes\middle_finger_1+middle_meta_v7_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="middle_finger_1+middle_pp_v12_1" file=".\meshes\middle_finger_1+middle_pp_v12_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="middle_finger_1+middle_ip_v6_1" file=".\meshes\middle_finger_1+middle_ip_v6_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="middle_finger_1+middle_dp_v7_1" file=".\meshes\middle_finger_1+middle_dp_v7_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="Component1_1+Component68_1" file=".\meshes\Component1_1+Component68_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="index_finger_1+index_meta_1" file=".\meshes\index_finger_1+index_meta_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="index_finger_1+index_pp_1" file=".\meshes\index_finger_1+index_pp_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="index_finger_1+index_ip_1" file=".\meshes\index_finger_1+index_ip_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="index_finger_1+index_dp_v45_1" file=".\meshes\index_finger_1+index_dp_v45_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="carpal_bone_thumb_1" file=".\meshes\carpal_bone_thumb_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="thumb_finger_1+thumb_meta_v9_1" file=".\meshes\thumb_finger_1+thumb_meta_v9_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="thumb_finger_1+thumb_pp_v6_1" file=".\meshes\thumb_finger_1+thumb_pp_v6_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="thumb_finger_1+thumb_ip_v10_1" file=".\meshes\thumb_finger_1+thumb_ip_v10_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="thumb_finger_1+thumb_dp_v6_1" file=".\meshes\thumb_finger_1+thumb_dp_v6_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="carpal_bone_2_1+carpal_2_1" file=".\meshes\carpal_bone_2_1+carpal_2_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="pinky_finger_1+pinky_meta_v4_1" file=".\meshes\pinky_finger_1+pinky_meta_v4_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="pinky_finger_1+pinky_pp_v6_1" file=".\meshes\pinky_finger_1+pinky_pp_v6_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="pinky_finger_1+pinky_ip_v10_1" file=".\meshes\pinky_finger_1+pinky_ip_v10_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="pinky_finger_1+pinky_dp_v10_1" file=".\meshes\pinky_finger_1+pinky_dp_v10_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="ring_finger_1+ring_meta_v4_1" file=".\meshes\ring_finger_1+ring_meta_v4_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="ring_finger_1+ring_pp_v5_1" file=".\meshes\ring_finger_1+ring_pp_v5_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="ring_finger_1+ring_ip_v5_1" file=".\meshes\ring_finger_1+ring_ip_v5_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="ring_finger_1+ring_dp_v5_1" file=".\meshes\ring_finger_1+ring_dp_v5_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="Component1_1+Component67_1" file=".\meshes\Component1_1+Component67_1.stl" scale="0.001 0.001 0.001" />
+  </asset>
+  <default />
+  <worldbody>
+    <body name="root" pos="0.0000 0.0000 0.0000" quat="1.00000 0.00000 0.00000 0.00000">
+      <body name="carpal_bone_1:1+Component58:1" pos="-0.0110 -0.0100 0.0225" quat="1.00000 0.00000 0.00000 0.00000">
+        <geom name="carpal_bone_1:1+Component58:1_geom" type="mesh" pos="0 0 0" quat="1.0 0.0 0.0 0.0" mesh="carpal_bone_1_1+Component58_1" density="1060.0" />
+        <body name="middle_finger:1+middle_meta v7:1" pos="0.0307 0.0100 0.0918" quat="0.70414 -0.70414 0.06472 0.06472">
+          <geom name="middle_finger:1+middle_meta v7:1_geom" type="mesh" pos="0 0 0" quat="1.0 0.0 0.0 0.0" mesh="middle_finger_1+middle_meta_v7_1" density="1410.3789699025458" />
+          <body name="middle_finger:1+middle_pp v12:1" pos="-0.0000 0.0000 0.0000" quat="0.00000 0.00000 0.00000 1.00000">
+            <geom name="middle_finger:1+middle_pp v12:1_geom" type="mesh" pos="0 0 0" quat="1.0 0.0 0.0 0.0" mesh="middle_finger_1+middle_pp_v12_1" density="1060.0" />
+            <joint name="middle_finger:1+middle_pp v12:1_Ball 90" type="hinge" pos="-0.0000 0.0000 -0.0000" axis="-1.0000 -0.0000 0.0000" limited="true" range="0.0000 1.5708" />
+            <joint name="middle_finger:1+middle_pp v12:1_Ball 91" type="hinge" pos="-0.0000 0.0000 -0.0000" axis="0.0000 -1.0000 -0.0000" limited="true" range="-0.1745 0.1745" />
+            <joint name="middle_finger:1+middle_pp v12:1_Ball 92" type="hinge" pos="-0.0000 0.0000 -0.0000" axis="0.0000 0.0000 1.0000" limited="true" range="-0.1745 0.1745" />
+            <body name="middle_finger:1+middle_ip v6:1" pos="-0.0003 0.0500 0.0000" quat="1.00000 -0.00000 0.00000 0.00000">
+              <geom name="middle_finger:1+middle_ip v6:1_geom" type="mesh" pos="0 0 0" quat="1.0 0.0 0.0 0.0" mesh="middle_finger_1+middle_ip_v6_1" density="3537.512594248249" />
+              <joint name="middle_finger:1+middle_ip v6:1_Revolute 100" type="hinge" pos="-0.0047 0.0000 0.0000" axis="-1.0000 0.0000 -0.0000" limited="true" range="0.0000 1.5708" />
+              <body name="middle_finger:1+middle_dp v7:1" pos="-0.0004 0.0280 0.0000" quat="1.00000 -0.00000 -0.00000 -0.00000">
+                <geom name="middle_finger:1+middle_dp v7:1_geom" type="mesh" pos="0 0 0" quat="1.0 0.0 0.0 0.0" mesh="middle_finger_1+middle_dp_v7_1" density="1060.0" />
+                <joint name="middle_finger:1+middle_dp v7:1_Revolute 110" type="hinge" pos="-0.0024 -0.0000 -0.0000" axis="-1.0000 -0.0000 -0.0000" limited="true" range="0.0000 1.5708" />
+              </body>
+            </body>
+          </body>
+        </body>
+        <body name="Component1:1+Component68:1" pos="-0.0001 0.0000 -0.0002" quat="1.00000 -0.00000 0.00000 0.00000">
+          <geom name="Component1:1+Component68:1_geom" type="mesh" pos="0 0 0" quat="1.0 0.0 0.0 0.0" mesh="Component1_1+Component68_1" density="1060.0" />
+        </body>
+        <body name="index_finger:1+index_meta:1" pos="0.0054 0.0100 0.0214" quat="-0.49342 0.49342 0.50649 0.50649">
+          <geom name="index_finger:1+index_meta:1_geom" type="mesh" pos="0 0 0" quat="1.0 0.0 0.0 0.0" mesh="index_finger_1+index_meta_1" density="1410.3795352590441" />
+          <body name="index_finger:1+index_pp:1" pos="0.0726 0.0000 0.0000" quat="0.70711 0.00000 0.00000 -0.70711">
+            <geom name="index_finger:1+index_pp:1_geom" type="mesh" pos="0 0 0" quat="1.0 0.0 0.0 0.0" mesh="index_finger_1+index_pp_1" density="5911.622228813378" />
+            <joint name="index_finger:1+index_pp:1_Ball 170" type="hinge" pos="0.0000 0.0000 -0.0000" axis="-0.0000 1.0000 -0.0000" limited="true" range="-0.1745 0.1745" />
+            <joint name="index_finger:1+index_pp:1_Ball 171" type="hinge" pos="0.0000 0.0000 -0.0000" axis="-1.0000 -0.0000 0.0000" limited="true" range="0.0000 1.5708" />
+            <joint name="index_finger:1+index_pp:1_Ball 172" type="hinge" pos="0.0000 0.0000 -0.0000" axis="-0.0000 0.0000 1.0000" limited="true" range="-0.3491 0.3491" />
+            <body name="index_finger:1+index_ip:1" pos="-0.0003 0.0480 0.0000" quat="1.00000 -0.00000 0.00000 0.00000">
+              <geom name="index_finger:1+index_ip:1_geom" type="mesh" pos="0 0 0" quat="1.0 0.0 0.0 0.0" mesh="index_finger_1+index_ip_1" density="6218.063770970918" />
+              <joint name="index_finger:1+index_ip:1_Revolute 140" type="hinge" pos="-0.0047 0.0000 -0.0000" axis="-1.0000 0.0000 -0.0000" limited="true" range="0.0000 1.5708" />
+              <body name="index_finger:1+index_dp v45:1" pos="-0.0004 0.0280 0.0000" quat="1.00000 0.00000 -0.00000 0.00000">
+                <geom name="index_finger:1+index_dp v45:1_geom" type="mesh" pos="0 0 0" quat="1.0 0.0 0.0 0.0" mesh="index_finger_1+index_dp_v45_1" density="6257.553331310181" />
+                <joint name="index_finger:1+index_dp v45:1_Revolute 150" type="hinge" pos="-0.0024 0.0000 -0.0000" axis="-1.0000 0.0000 -0.0000" limited="true" range="0.0000 1.5708" />
+              </body>
+            </body>
+          </body>
+        </body>
+        <body name="carpal_bone_thumb:1" pos="-0.0024 0.0100 0.0145" quat="0.99872 -0.00000 -0.05066 -0.00000">
+          <geom name="carpal_bone_thumb:1_geom" type="mesh" pos="0 0 0" quat="1.0 0.0 0.0 0.0" mesh="carpal_bone_thumb_1" density="1060.0" />
+          <joint name="carpal_bone_thumb:1_Revolute 360" type="hinge" pos="-0.0000 0.0000 0.0033" axis="-0.0000 -0.0000 1.0000" limited="true" range="0.0000 1.2217" />
+          <body name="thumb_finger:1+thumb_meta v9:1" pos="-0.0475 -0.0165 0.0050" quat="-0.23021 0.66858 0.66858 -0.23021">
+            <geom name="thumb_finger:1+thumb_meta v9:1_geom" type="mesh" pos="0 0 0" quat="1.0 0.0 0.0 0.0" mesh="thumb_finger_1+thumb_meta_v9_1" density="1560.1501222996978" />
+            <body name="thumb_finger:1+thumb_pp v6:1" pos="0.0000 -0.0000 0.0000" quat="-0.00000 -0.00000 0.00000 1.00000">
+              <geom name="thumb_finger:1+thumb_pp v6:1_geom" type="mesh" pos="0 0 0" quat="1.0 0.0 0.0 0.0" mesh="thumb_finger_1+thumb_pp_v6_1" density="1060.0" />
+              <joint name="thumb_finger:1+thumb_pp v6:1_Ball 120" type="hinge" pos="0.0000 -0.0000 -0.0000" axis="-1.0000 -0.0000 0.0000" limited="true" range="0.0000 1.5708" />
+              <joint name="thumb_finger:1+thumb_pp v6:1_Ball 121" type="hinge" pos="0.0000 -0.0000 -0.0000" axis="0.0000 -1.0000 0.0000" limited="true" range="-0.1745 0.1745" />
+              <joint name="thumb_finger:1+thumb_pp v6:1_Ball 122" type="hinge" pos="0.0000 -0.0000 -0.0000" axis="-0.0000 -0.0000 1.0000" limited="true" range="-0.3491 0.3491" />
+              <body name="thumb_finger:1+thumb_ip v10:1" pos="-0.0003 0.0480 -0.0000" quat="1.00000 0.00000 0.00000 -0.00000">
+                <geom name="thumb_finger:1+thumb_ip v10:1_geom" type="mesh" pos="0 0 0" quat="1.0 0.0 0.0 0.0" mesh="thumb_finger_1+thumb_ip_v10_1" density="1235.4209452599473" />
+                <joint name="thumb_finger:1+thumb_ip v10:1_Revolute 100" type="hinge" pos="-0.0047 0.0000 0.0000" axis="-1.0000 -0.0000 0.0000" limited="true" range="0.0000 1.5708" />
+                <body name="thumb_finger:1+thumb_dp v6:1" pos="-0.0004 0.0280 -0.0000" quat="1.00000 -0.00000 -0.00000 0.00000">
+                  <geom name="thumb_finger:1+thumb_dp v6:1_geom" type="mesh" pos="0 0 0" quat="1.0 0.0 0.0 0.0" mesh="thumb_finger_1+thumb_dp_v6_1" density="1060.0" />
+                  <joint name="thumb_finger:1+thumb_dp v6:1_Revolute 110" type="hinge" pos="-0.0024 -0.0000 0.0000" axis="-1.0000 -0.0000 0.0000" limited="true" range="0.0000 1.5708" />
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+        <body name="carpal_bone_2:1+carpal_2:1" pos="0.0206 -0.0020 -0.0003" quat="0.98837 -0.00000 0.15207 0.00000">
+          <geom name="carpal_bone_2:1+carpal_2:1_geom" type="mesh" pos="0 0 0" quat="1.0 0.0 0.0 0.0" mesh="carpal_bone_2_1+carpal_2_1" density="1060.0" />
+          <joint name="carpal_bone_2:1+carpal_2:1_Revolute 370" type="hinge" pos="-0.0005 0.0100 0.0104" axis="0.1012 0.0000 -0.9949" limited="true" range="0.0000 0.4363" />
+          <body name="pinky_finger:1+pinky_meta v4:1" pos="0.0341 0.0100 0.0860" quat="0.70317 -0.70317 0.07456 0.07456">
+            <geom name="pinky_finger:1+pinky_meta v4:1_geom" type="mesh" pos="0 0 0" quat="1.0 0.0 0.0 0.0" mesh="pinky_finger_1+pinky_meta_v4_1" density="1415.5307374457534" />
+            <body name="pinky_finger:1+pinky_pp v6:1" pos="-0.0000 0.0000 0.0000" quat="0.00000 -0.00000 0.00000 1.00000">
+              <geom name="pinky_finger:1+pinky_pp v6:1_geom" type="mesh" pos="0 0 0" quat="1.0 0.0 0.0 0.0" mesh="pinky_finger_1+pinky_pp_v6_1" density="1060.0" />
+              <joint name="pinky_finger:1+pinky_pp v6:1_Ball 90" type="hinge" pos="-0.0000 0.0000 -0.0000" axis="-1.0000 -0.0000 -0.0000" limited="true" range="0.0000 1.5708" />
+              <joint name="pinky_finger:1+pinky_pp v6:1_Ball 91" type="hinge" pos="-0.0000 0.0000 -0.0000" axis="0.0000 -1.0000 0.0000" limited="true" range="-0.1745 0.1745" />
+              <joint name="pinky_finger:1+pinky_pp v6:1_Ball 92" type="hinge" pos="-0.0000 0.0000 -0.0000" axis="0.0000 -0.0000 1.0000" limited="true" range="-0.3491 0.3491" />
+              <body name="pinky_finger:1+pinky_ip v10:1" pos="-0.0003 0.0480 0.0000" quat="1.00000 0.00000 -0.00000 0.00000">
+                <geom name="pinky_finger:1+pinky_ip v10:1_geom" type="mesh" pos="0 0 0" quat="1.0 0.0 0.0 0.0" mesh="pinky_finger_1+pinky_ip_v10_1" density="1265.60600281942" />
+                <joint name="pinky_finger:1+pinky_ip v10:1_Revolute 100" type="hinge" pos="-0.0047 -0.0000 -0.0000" axis="-1.0000 -0.0000 -0.0000" limited="true" range="0.0000 1.5708" />
+                <body name="pinky_finger:1+pinky_dp v10:1" pos="-0.0004 0.0250 0.0000" quat="1.00000 0.00000 -0.00000 0.00000">
+                  <geom name="pinky_finger:1+pinky_dp v10:1_geom" type="mesh" pos="0 0 0" quat="1.0 0.0 0.0 0.0" mesh="pinky_finger_1+pinky_dp_v10_1" density="1060.0" />
+                  <joint name="pinky_finger:1+pinky_dp v10:1_Revolute 110" type="hinge" pos="-0.0024 0.0000 -0.0000" axis="-1.0000 0.0000 -0.0000" limited="true" range="0.0000 1.5708" />
+                </body>
+              </body>
+            </body>
+          </body>
+          <body name="ring_finger:1+ring_meta v4:1" pos="0.0077 0.0100 0.0920" quat="0.70711 -0.70711 0.00065 0.00065">
+            <geom name="ring_finger:1+ring_meta v4:1_geom" type="mesh" pos="0 0 0" quat="1.0 0.0 0.0 0.0" mesh="ring_finger_1+ring_meta_v4_1" density="1060.0" />
+            <body name="ring_finger:1+ring_pp v5:1" pos="0.0000 -0.0000 0.0000" quat="0.00000 0.00000 0.00000 1.00000">
+              <geom name="ring_finger:1+ring_pp v5:1_geom" type="mesh" pos="0 0 0" quat="1.0 0.0 0.0 0.0" mesh="ring_finger_1+ring_pp_v5_1" density="1060.0" />
+              <joint name="ring_finger:1+ring_pp v5:1_Ball 110" type="hinge" pos="0.0000 -0.0000 -0.0000" axis="-1.0000 -0.0000 0.0000" limited="true" range="0.0000 1.5708" />
+              <joint name="ring_finger:1+ring_pp v5:1_Ball 111" type="hinge" pos="0.0000 -0.0000 -0.0000" axis="0.0000 -1.0000 -0.0000" limited="true" range="-0.1745 0.1745" />
+              <joint name="ring_finger:1+ring_pp v5:1_Ball 112" type="hinge" pos="0.0000 -0.0000 -0.0000" axis="-0.0000 -0.0000 1.0000" limited="true" range="-0.3491 0.3491" />
+              <body name="ring_finger:1+ring_ip v5:1" pos="-0.0003 0.0480 -0.0000" quat="1.00000 0.00000 0.00000 0.00000">
+                <geom name="ring_finger:1+ring_ip v5:1_geom" type="mesh" pos="0 0 0" quat="1.0 0.0 0.0 0.0" mesh="ring_finger_1+ring_ip_v5_1" density="1060.0" />
+                <joint name="ring_finger:1+ring_ip v5:1_Revolute 90" type="hinge" pos="-0.0047 0.0000 0.0000" axis="-1.0000 0.0000 -0.0000" limited="true" range="0.0000 1.5708" />
+                <body name="ring_finger:1+ring_dp v5:1" pos="-0.0004 0.0280 0.0000" quat="1.00000 0.00000 -0.00000 0.00000">
+                  <geom name="ring_finger:1+ring_dp v5:1_geom" type="mesh" pos="0 0 0" quat="1.0 0.0 0.0 0.0" mesh="ring_finger_1+ring_dp_v5_1" density="1060.0" />
+                  <joint name="ring_finger:1+ring_dp v5:1_Revolute 100" type="hinge" pos="-0.0024 0.0000 -0.0000" axis="-1.0000 0.0000 0.0000" limited="true" range="0.0000 1.5708" />
+                </body>
+              </body>
+            </body>
+          </body>
+          <body name="Component1:1+Component67:1" pos="-0.0198 0.0020 -0.0068" quat="0.98837 0.00000 -0.15207 -0.00000">
+            <geom name="Component1:1+Component67:1_geom" type="mesh" pos="0 0 0" quat="1.0 0.0 0.0 0.0" mesh="Component1_1+Component67_1" density="1060.0" />
+          </body>
+        </body>
+      </body>
+    </body>
+  </worldbody>
+  <actuator>
+    <position name="middle_finger:1+middle_pp v12:1_Ball 90_actuator" joint="middle_finger:1+middle_pp v12:1_Ball 90" ctrlrange="0.0000 1.5708" ctrllimited="true" kp="1" forcerange="-10 10" />
+    <position name="middle_finger:1+middle_pp v12:1_Ball 91_actuator" joint="middle_finger:1+middle_pp v12:1_Ball 91" ctrlrange="-0.1745 0.1745" ctrllimited="true" kp="1" forcerange="-10 10" />
+    <position name="middle_finger:1+middle_pp v12:1_Ball 92_actuator" joint="middle_finger:1+middle_pp v12:1_Ball 92" ctrlrange="-0.1745 0.1745" ctrllimited="true" kp="1" forcerange="-10 10" />
+    <position name="middle_finger:1+middle_ip v6:1_Revolute 100_actuator" joint="middle_finger:1+middle_ip v6:1_Revolute 100" ctrlrange="0.0000 1.5708" ctrllimited="true" kp="1" forcerange="-10 10" />
+    <position name="middle_finger:1+middle_dp v7:1_Revolute 110_actuator" joint="middle_finger:1+middle_dp v7:1_Revolute 110" ctrlrange="0.0000 1.5708" ctrllimited="true" kp="1" forcerange="-10 10" />
+    <position name="index_finger:1+index_pp:1_Ball 170_actuator" joint="index_finger:1+index_pp:1_Ball 170" ctrlrange="-0.1745 0.1745" ctrllimited="true" kp="1" forcerange="-10 10" />
+    <position name="index_finger:1+index_pp:1_Ball 171_actuator" joint="index_finger:1+index_pp:1_Ball 171" ctrlrange="0.0000 1.5708" ctrllimited="true" kp="1" forcerange="-10 10" />
+    <position name="index_finger:1+index_pp:1_Ball 172_actuator" joint="index_finger:1+index_pp:1_Ball 172" ctrlrange="-0.3491 0.3491" ctrllimited="true" kp="1" forcerange="-10 10" />
+    <position name="index_finger:1+index_ip:1_Revolute 140_actuator" joint="index_finger:1+index_ip:1_Revolute 140" ctrlrange="0.0000 1.5708" ctrllimited="true" kp="1" forcerange="-10 10" />
+    <position name="index_finger:1+index_dp v45:1_Revolute 150_actuator" joint="index_finger:1+index_dp v45:1_Revolute 150" ctrlrange="0.0000 1.5708" ctrllimited="true" kp="1" forcerange="-10 10" />
+    <position name="carpal_bone_thumb:1_Revolute 360_actuator" joint="carpal_bone_thumb:1_Revolute 360" ctrlrange="0.0000 1.2217" ctrllimited="true" kp="1" forcerange="-10 10" />
+    <position name="thumb_finger:1+thumb_pp v6:1_Ball 120_actuator" joint="thumb_finger:1+thumb_pp v6:1_Ball 120" ctrlrange="0.0000 1.5708" ctrllimited="true" kp="1" forcerange="-10 10" />
+    <position name="thumb_finger:1+thumb_pp v6:1_Ball 121_actuator" joint="thumb_finger:1+thumb_pp v6:1_Ball 121" ctrlrange="-0.1745 0.1745" ctrllimited="true" kp="1" forcerange="-10 10" />
+    <position name="thumb_finger:1+thumb_pp v6:1_Ball 122_actuator" joint="thumb_finger:1+thumb_pp v6:1_Ball 122" ctrlrange="-0.3491 0.3491" ctrllimited="true" kp="1" forcerange="-10 10" />
+    <position name="thumb_finger:1+thumb_ip v10:1_Revolute 100_actuator" joint="thumb_finger:1+thumb_ip v10:1_Revolute 100" ctrlrange="0.0000 1.5708" ctrllimited="true" kp="1" forcerange="-10 10" />
+    <position name="thumb_finger:1+thumb_dp v6:1_Revolute 110_actuator" joint="thumb_finger:1+thumb_dp v6:1_Revolute 110" ctrlrange="0.0000 1.5708" ctrllimited="true" kp="1" forcerange="-10 10" />
+    <position name="carpal_bone_2:1+carpal_2:1_Revolute 370_actuator" joint="carpal_bone_2:1+carpal_2:1_Revolute 370" ctrlrange="0.0000 0.4363" ctrllimited="true" kp="1" forcerange="-10 10" />
+    <position name="pinky_finger:1+pinky_pp v6:1_Ball 90_actuator" joint="pinky_finger:1+pinky_pp v6:1_Ball 90" ctrlrange="0.0000 1.5708" ctrllimited="true" kp="1" forcerange="-10 10" />
+    <position name="pinky_finger:1+pinky_pp v6:1_Ball 91_actuator" joint="pinky_finger:1+pinky_pp v6:1_Ball 91" ctrlrange="-0.1745 0.1745" ctrllimited="true" kp="1" forcerange="-10 10" />
+    <position name="pinky_finger:1+pinky_pp v6:1_Ball 92_actuator" joint="pinky_finger:1+pinky_pp v6:1_Ball 92" ctrlrange="-0.3491 0.3491" ctrllimited="true" kp="1" forcerange="-10 10" />
+    <position name="pinky_finger:1+pinky_ip v10:1_Revolute 100_actuator" joint="pinky_finger:1+pinky_ip v10:1_Revolute 100" ctrlrange="0.0000 1.5708" ctrllimited="true" kp="1" forcerange="-10 10" />
+    <position name="pinky_finger:1+pinky_dp v10:1_Revolute 110_actuator" joint="pinky_finger:1+pinky_dp v10:1_Revolute 110" ctrlrange="0.0000 1.5708" ctrllimited="true" kp="1" forcerange="-10 10" />
+    <position name="ring_finger:1+ring_pp v5:1_Ball 110_actuator" joint="ring_finger:1+ring_pp v5:1_Ball 110" ctrlrange="0.0000 1.5708" ctrllimited="true" kp="1" forcerange="-10 10" />
+    <position name="ring_finger:1+ring_pp v5:1_Ball 111_actuator" joint="ring_finger:1+ring_pp v5:1_Ball 111" ctrlrange="-0.1745 0.1745" ctrllimited="true" kp="1" forcerange="-10 10" />
+    <position name="ring_finger:1+ring_pp v5:1_Ball 112_actuator" joint="ring_finger:1+ring_pp v5:1_Ball 112" ctrlrange="-0.3491 0.3491" ctrllimited="true" kp="1" forcerange="-10 10" />
+    <position name="ring_finger:1+ring_ip v5:1_Revolute 90_actuator" joint="ring_finger:1+ring_ip v5:1_Revolute 90" ctrlrange="0.0000 1.5708" ctrllimited="true" kp="1" forcerange="-10 10" />
+    <position name="ring_finger:1+ring_dp v5:1_Revolute 100_actuator" joint="ring_finger:1+ring_dp v5:1_Revolute 100" ctrlrange="0.0000 1.5708" ctrllimited="true" kp="1" forcerange="-10 10" />
+  </actuator>
+  <contact>
+    <exclude body1="root" body2="carpal_bone_1:1+Component58:1" />
+    <exclude body1="carpal_bone_1:1+Component58:1" body2="middle_finger:1+middle_meta v7:1" />
+    <exclude body1="middle_finger:1+middle_meta v7:1" body2="middle_finger:1+middle_pp v12:1" />
+    <exclude body1="middle_finger:1+middle_pp v12:1" body2="middle_finger:1+middle_ip v6:1" />
+    <exclude body1="middle_finger:1+middle_ip v6:1" body2="middle_finger:1+middle_dp v7:1" />
+    <exclude body1="carpal_bone_1:1+Component58:1" body2="Component1:1+Component68:1" />
+    <exclude body1="carpal_bone_1:1+Component58:1" body2="index_finger:1+index_meta:1" />
+    <exclude body1="index_finger:1+index_meta:1" body2="index_finger:1+index_pp:1" />
+    <exclude body1="index_finger:1+index_pp:1" body2="index_finger:1+index_ip:1" />
+    <exclude body1="index_finger:1+index_ip:1" body2="index_finger:1+index_dp v45:1" />
+    <exclude body1="carpal_bone_1:1+Component58:1" body2="carpal_bone_thumb:1" />
+    <exclude body1="carpal_bone_thumb:1" body2="thumb_finger:1+thumb_meta v9:1" />
+    <exclude body1="thumb_finger:1+thumb_meta v9:1" body2="thumb_finger:1+thumb_pp v6:1" />
+    <exclude body1="thumb_finger:1+thumb_pp v6:1" body2="thumb_finger:1+thumb_ip v10:1" />
+    <exclude body1="thumb_finger:1+thumb_ip v10:1" body2="thumb_finger:1+thumb_dp v6:1" />
+    <exclude body1="carpal_bone_1:1+Component58:1" body2="carpal_bone_2:1+carpal_2:1" />
+    <exclude body1="carpal_bone_2:1+carpal_2:1" body2="pinky_finger:1+pinky_meta v4:1" />
+    <exclude body1="pinky_finger:1+pinky_meta v4:1" body2="pinky_finger:1+pinky_pp v6:1" />
+    <exclude body1="pinky_finger:1+pinky_pp v6:1" body2="pinky_finger:1+pinky_ip v10:1" />
+    <exclude body1="pinky_finger:1+pinky_ip v10:1" body2="pinky_finger:1+pinky_dp v10:1" />
+    <exclude body1="carpal_bone_2:1+carpal_2:1" body2="ring_finger:1+ring_meta v4:1" />
+    <exclude body1="ring_finger:1+ring_meta v4:1" body2="ring_finger:1+ring_pp v5:1" />
+    <exclude body1="ring_finger:1+ring_pp v5:1" body2="ring_finger:1+ring_ip v5:1" />
+    <exclude body1="ring_finger:1+ring_ip v5:1" body2="ring_finger:1+ring_dp v5:1" />
+    <exclude body1="carpal_bone_2:1+carpal_2:1" body2="Component1:1+Component67:1" />
+  </contact>
+</mujoco>

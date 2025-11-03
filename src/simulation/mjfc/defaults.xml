@@ -1,0 +1,6 @@
+<mujoco>
+    <default>
+        <geom type="mesh" rgba="0.8 0.8 0.8 0.5" />
+        <joint type="hinge" limited="true" range="-3.14 3.14" damping="0.1" frictionloss="0.0005" />
+    </default>
+</mujoco>

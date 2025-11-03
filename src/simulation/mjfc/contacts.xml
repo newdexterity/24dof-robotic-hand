@@ -1,0 +1,14 @@
+<mujoco>
+    <contact>
+        <exclude body1="carpal_bone_1:1+Component58:1" body2="carpal_bone_2:1+carpal_2:1"/>+
+        <exclude body1="Component1:1+Component68:1" body2="Component1:1+Component67:1"/>
+        <exclude body1="Component1:1+Component67:1" body2="middle_finger:1+middle_meta v7:1"/>
+        <exclude body1="carpal_bone_thumb:1" body2="carpal_bone_1:1+Component58:1"/>
+        <exclude body1="carpal_bone_thumb:1" body2="Component1:1+Component68:1"/>
+        <exclude body1="carpal_bone_1:1+Component58:1" body2="Component1:1+Component67:1"/>
+        <exclude body1="carpal_bone_2:1+carpal_2:1" body2="Component1:1+Component68:1"/>
+
+        <pair geom1="middle_finger:1+middle_meta v7:1_geom" geom2="middle_finger:1+middle_pp v12:1_geom" margin="-0.02"/>
+        <pair geom1="index_finger:1+index_meta:1_geom" geom2="index_finger:1+index_pp:1_geom" margin="-0.02"/>
+    </contact>
+</mujoco>
